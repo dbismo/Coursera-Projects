@@ -81,3 +81,10 @@ h1 {
 	width: 16%; 
 	}
 }
+
+/*** Medium Devices ***/
+@media (max-width: 299px) {
+	.title { 
+		width: 50%
+	}
+}
