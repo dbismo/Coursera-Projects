@@ -84,7 +84,7 @@ h1 {
 
 /*** Medium Devices ***/
 @media (max-width: 299px) {
-	.title { 
+	span.title { 
 		width: 50%
 	}
 }
