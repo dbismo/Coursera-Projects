@@ -89,14 +89,12 @@ h1 {
 
 /*** Small Devices ***/
 @media (min-width: 300px) and (max-width: 767px) {
-	div.md-1 > span.title {
+	span.title {
 	width: 16%; 
-	}
-	div.md-2 > span.title {
-	width: 30.33%; 
 	}
 }
 
+/*** Smaller Devices ***/
 @media (max-width: 299px) {
 	span.title { 
 		width: 100%
