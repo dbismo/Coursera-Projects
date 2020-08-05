@@ -16,7 +16,6 @@ h1 {
 .title {
 	float: right;
 	text-align: center;
-	width: 30.33%;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
 	margin-bottom: 20px;
@@ -67,6 +66,9 @@ h1 {
 	.lg-3 {
 		width: 31.33%;
 	}
+	span.title {
+		width: 30.33%;
+	}
 }
 
 /*** Medium Devices ***/
@@ -80,9 +82,21 @@ h1 {
 	div.md-1 > span.title {
 	width: 16%; 
 	}
+	div.md-2 > span.title {
+	width: 30.33%; 
+	}
 }
 
-/*** Medium Devices ***/
+/*** Small Devices ***/
+@media (min-width: 300px) and (max-width: 767px) {
+	div.md-1 > span.title {
+	width: 16%; 
+	}
+	div.md-2 > span.title {
+	width: 30.33%; 
+	}
+}
+
 @media (max-width: 299px) {
 	span.title { 
 		width: 50%
