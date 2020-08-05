@@ -16,8 +16,6 @@ h1 {
 .title {
 	float: right;
 	text-align: center;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
 	margin-bottom: 20px;
 	padding: 10px;
 	font-weight: bold;
@@ -68,6 +66,8 @@ h1 {
 	}
 	span.title {
 		width: 30.33%;
+		border-left: 0px solid black;
+		border-bottom: 0px solid black;
 	}
 }
 
@@ -78,6 +78,10 @@ h1 {
 	}
 	.md-2 {
 		width: 48%;
+	}
+	span.title {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	}
 	div.md-1 > span.title {
 	width: 16%; 
@@ -91,6 +95,8 @@ h1 {
 @media (min-width: 300px) and (max-width: 767px) {
 	span.title {
 	width: 30.33%;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	}
 }
 
