@@ -97,6 +97,7 @@ h1 {
 /*** Smaller Devices ***/
 @media (max-width: 299px) {
 	span.title { 
-		width: 100%
+		width: 100%;
+		border: 0px;
 	}
 }
