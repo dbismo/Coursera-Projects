@@ -1,0 +1,98 @@
+/*** NOTES  ***/
+/*** Nav Color: #1e3d59, #f5f0e1, #ff6e40, #ffc13b ***/
+/*** https://99designs.com/blog/creative-inspiration/color-combinations/ ***/
+/*** https://getbootstrap.com/docs/3.4/css/ ***/
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	/*** box-sizing: border-box; ***/
+}
+
+#menu {
+	border: 0px solid #1e3d59;
+	background-color: white;
+}
+
+.container-fluid {
+	border: 0px solid #1e3d59;
+}
+
+content.container-fluid {
+	margin-top: -20px;
+}
+
+.navbar {
+	background-color: #1e3d59;
+	border-bottom: 3px solid #1e3d59;
+}
+
+.navbar-brand {
+	font-size: 180%;
+}
+
+.navbar-header button.navbar-toggle {
+	border: 1px solid #1e3d59;
+	background-color: #ddd;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background-color: #f5f0e1;
+}
+
+.navbar-collapse {
+	margin-bottom: -10px;
+}
+
+.navbar-collapse > ul > li {
+	width: 100%;
+	border-bottom: 1px solid #1e3d59;
+	text-align: center;
+	background-color: white;
+}
+
+.navbar-collapse > ul > li:hover {
+	background-color: #ffc13b;
+}
+
+.navbar-collapse > ul > li.top {
+	margin-top: -10px;
+	border-top: 4px solid #1e3d59;
+}
+
+.col-sm-12, .col-md-6, .col-md-12, .col-lg-4 {
+	border: 1px solid #1e3d59;
+	background-color: #f5f0e1;
+	margin-bottom: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	clear: right;
+}
+
+
+.col-sm-12 {
+	width: calc(100% - 20px);
+}
+
+/*** Desktop ***/
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		width: calc(100%/3 - 20px);
+	}
+}
+
+/*** Tablet ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-md-6 {
+		width: calc(100%/2 - 20px);
+
+	}
+
+	.col-md-12 {
+		width: calc(100% - 20px);
+	}
+}
+
+/*** Mobile ***/
+@media (max-width: 991px) {
+
+}
